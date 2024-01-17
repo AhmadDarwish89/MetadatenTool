@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="main.java.de.lwv.MetadatenTool.view.Startseite">
+  <grid id="27dc6" binding="JP_Home" layout-manager="BorderLayout" hgap="0" vgap="0">
+    <constraints>
+      <xy x="20" y="20" width="610" height="521"/>
+    </constraints>
+    <properties>
+      <font name="Cambria Math" size="15"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <grid id="7fb41" binding="pnlMain" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+        <constraints border-constraint="West"/>
+        <properties>
+          <font name="Cambria Math" size="15"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <grid id="b80fe" binding="pnlMain1" layout-manager="BorderLayout" hgap="0" vgap="0">
+            <constraints/>
+            <properties>
+              <font name="Cambria Math" size="15"/>
+            </properties>
+            <border type="none"/>
+            <children/>
+          </grid>
+          <component id="19dca" class="javax.swing.JLabel" binding="ImageLabel">
+            <constraints/>
+            <properties>
+              <horizontalAlignment value="0"/>
+              <horizontalTextPosition value="0"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="94729" class="javax.swing.JButton" binding="ToolButton">
+            <constraints/>
+            <properties>
+              <font name="Comic Sans MS" size="18" style="1"/>
+              <hideActionText value="true"/>
+              <horizontalAlignment value="0"/>
+              <horizontalTextPosition value="0"/>
+              <text value="Tool zur Verwaltung von Metadaten für Schriftstückvorlagen"/>
+              <verticalAlignment value="0"/>
+              <verticalTextPosition value="0"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+    </children>
+  </grid>
+</form>

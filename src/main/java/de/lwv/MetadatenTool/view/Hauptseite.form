@@ -1,0 +1,1155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="main.java.de.lwv.MetadatenTool.view.Hauptseite">
+  <grid id="27dc6" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+    <constraints>
+      <xy x="20" y="20" width="1385" height="2140"/>
+    </constraints>
+    <properties>
+      <font name="Cambria Math" size="15"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <grid id="aea94" binding="pnlMain" layout-manager="GridBagLayout">
+        <constraints/>
+        <properties>
+          <font name="Cambria Math" size="15"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <grid id="a99ed" binding="pnlMeta" layout-manager="GridBagLayout">
+            <constraints>
+              <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="1" fill="1" indent="0" use-parent-layout="false"/>
+              <gridbag weightx="1.0" weighty="1.0"/>
+            </constraints>
+            <properties>
+              <font name="Cambria Math" size="15"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <grid id="34040" layout-manager="BorderLayout" hgap="0" vgap="0">
+                <constraints>
+                  <grid row="1" column="0" row-span="1" col-span="2" vsize-policy="3" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                  <gridbag weightx="1.0" weighty="1.0"/>
+                </constraints>
+                <properties>
+                  <font name="Cambria Math" size="15"/>
+                </properties>
+                <border type="none"/>
+                <children>
+                  <grid id="96c73" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+                    <constraints border-constraint="South"/>
+                    <properties>
+                      <font name="Cambria Math" size="15"/>
+                    </properties>
+                    <border type="none"/>
+                    <children>
+                      <component id="549ee" class="javax.swing.JButton" binding="löchen_MetaButton">
+                        <constraints/>
+                        <properties>
+                          <font name="Cambria Math" size="15"/>
+                          <text value="Löchen"/>
+                        </properties>
+                      </component>
+                      <component id="7e18b" class="javax.swing.JButton" binding="SaveMetaButton">
+                        <constraints/>
+                        <properties>
+                          <font name="Cambria Math" size="15"/>
+                          <text value="Speichern"/>
+                        </properties>
+                      </component>
+                      <component id="ee819" class="javax.swing.JButton" binding="openButton" default-binding="true">
+                        <constraints/>
+                        <properties>
+                          <font name="Cambria Math" size="15"/>
+                          <text value="Offen"/>
+                        </properties>
+                      </component>
+                    </children>
+                  </grid>
+                  <component id="a949e" class="javax.swing.JLabel">
+                    <constraints border-constraint="North"/>
+                    <properties>
+                      <font name="Comic Sans MS" size="16" style="1"/>
+                      <text value="Edok_metadatum"/>
+                    </properties>
+                  </component>
+                  <grid id="e8adc" layout-manager="BorderLayout" hgap="0" vgap="0">
+                    <constraints border-constraint="Center"/>
+                    <properties>
+                      <font name="Cambria Math" size="15"/>
+                    </properties>
+                    <border type="none"/>
+                    <children>
+                      <grid id="662be" layout-manager="GridLayoutManager" row-count="6" column-count="4" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                        <margin top="0" left="0" bottom="0" right="0"/>
+                        <constraints border-constraint="North"/>
+                        <properties>
+                          <font name="Cambria Math" size="15"/>
+                        </properties>
+                        <border type="none"/>
+                        <children>
+                          <component id="9fd02" class="javax.swing.JLabel">
+                            <constraints>
+                              <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                            </constraints>
+                            <properties>
+                              <font name="Cambria Math" size="15"/>
+                              <text value="EDOK_VORLAGE_ID"/>
+                            </properties>
+                          </component>
+                          <component id="8711e" class="javax.swing.JLabel">
+                            <constraints>
+                              <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                            </constraints>
+                            <properties>
+                              <font name="Cambria Math" size="15"/>
+                              <text value="META_CODE"/>
+                            </properties>
+                          </component>
+                          <component id="bf96" class="javax.swing.JLabel">
+                            <constraints>
+                              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                            </constraints>
+                            <properties>
+                              <font name="Cambria Math" size="15"/>
+                              <text value="ID"/>
+                            </properties>
+                          </component>
+                          <component id="15db6" class="javax.swing.JTextField" binding="EDOK_VORLAGE_IDtxt">
+                            <constraints>
+                              <grid row="2" column="1" row-span="1" col-span="3" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                                <preferred-size width="150" height="-1"/>
+                              </grid>
+                            </constraints>
+                            <properties>
+                              <font name="Cambria Math" size="15" style="1"/>
+                            </properties>
+                          </component>
+                          <component id="c1861" class="javax.swing.JTextField" binding="VALUEtxt">
+                            <constraints>
+                              <grid row="5" column="1" row-span="1" col-span="3" vsize-policy="0" hsize-policy="6" anchor="4" fill="0" indent="0" use-parent-layout="false">
+                                <preferred-size width="150" height="-1"/>
+                              </grid>
+                            </constraints>
+                            <properties>
+                              <font name="Cambria Math" size="15" style="1"/>
+                            </properties>
+                          </component>
+                          <component id="5f6cb" class="javax.swing.JComboBox" binding="META_CODEtxt">
+                            <constraints>
+                              <grid row="3" column="1" row-span="1" col-span="3" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+                            </constraints>
+                            <properties>
+                              <font name="Cambria Math" size="15"/>
+                            </properties>
+                          </component>
+                          <component id="ff5b7" class="javax.swing.JSpinner" binding="IDMETAtxt">
+                            <constraints>
+                              <grid row="1" column="1" row-span="1" col-span="3" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+                            </constraints>
+                            <properties>
+                              <font name="Cambria Math" size="15"/>
+                            </properties>
+                          </component>
+                          <grid id="d96b4" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+                            <constraints>
+                              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                            </constraints>
+                            <properties>
+                              <font name="Cambria Math" size="15"/>
+                            </properties>
+                            <border type="none"/>
+                            <children/>
+                          </grid>
+                          <component id="765ac" class="javax.swing.JCheckBox" binding="VALUE_JA">
+                            <constraints>
+                              <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                            </constraints>
+                            <properties>
+                              <enabled value="true"/>
+                              <font name="Cambria Math" size="15"/>
+                              <text value="Ja"/>
+                            </properties>
+                          </component>
+                          <component id="87012" class="javax.swing.JCheckBox" binding="VALUE_NEIN">
+                            <constraints>
+                              <grid row="4" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                            </constraints>
+                            <properties>
+                              <enabled value="true"/>
+                              <font name="Cambria Math" size="15"/>
+                              <text value="Nein"/>
+                            </properties>
+                          </component>
+                          <component id="8d7a7" class="javax.swing.JLabel">
+                            <constraints>
+                              <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                            </constraints>
+                            <properties>
+                              <font name="Cambria Math" size="15"/>
+                              <text value="VALUE"/>
+                            </properties>
+                          </component>
+                          <component id="53041" class="javax.swing.JCheckBox" binding="VALUE_ANDEERE">
+                            <constraints>
+                              <grid row="4" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                            </constraints>
+                            <properties>
+                              <enabled value="true"/>
+                              <font name="Cambria Math" size="15"/>
+                              <text value="Andere"/>
+                            </properties>
+                          </component>
+                        </children>
+                      </grid>
+                      <grid id="f4110" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+                        <constraints border-constraint="Center"/>
+                        <properties>
+                          <font name="Cambria Math" size="15"/>
+                        </properties>
+                        <border type="none"/>
+                        <children/>
+                      </grid>
+                    </children>
+                  </grid>
+                </children>
+              </grid>
+              <component id="66754" class="javax.swing.JTextArea" binding="QueryArea">
+                <constraints>
+                  <grid row="3" column="0" row-span="1" col-span="2" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                    <preferred-size width="150" height="50"/>
+                  </grid>
+                  <gridbag weightx="1.0" weighty="1.0"/>
+                </constraints>
+                <properties>
+                  <font name="Cambria Math" size="15"/>
+                  <text value=""/>
+                </properties>
+              </component>
+              <grid id="32f38" binding="PnlBaum" layout-manager="GridLayoutManager" row-count="2" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                <margin top="0" left="0" bottom="0" right="0"/>
+                <constraints>
+                  <grid row="6" column="0" row-span="1" col-span="2" vsize-policy="3" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                  <gridbag weightx="1.0" weighty="1.0"/>
+                </constraints>
+                <properties>
+                  <font name="Cambria Math" size="15"/>
+                </properties>
+                <border type="none"/>
+                <children>
+                  <grid id="fd976" layout-manager="BorderLayout" hgap="0" vgap="0">
+                    <constraints>
+                      <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <font name="Cambria Math" size="15"/>
+                    </properties>
+                    <border type="none"/>
+                    <children>
+                      <grid id="4b4d6" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+                        <constraints border-constraint="South"/>
+                        <properties>
+                          <font name="Cambria Math" size="15"/>
+                        </properties>
+                        <border type="none"/>
+                        <children>
+                          <component id="67e06" class="javax.swing.JButton" binding="löchen_BaumButton">
+                            <constraints/>
+                            <properties>
+                              <font name="Cambria Math" size="15"/>
+                              <text value="Löchen"/>
+                            </properties>
+                          </component>
+                          <component id="dbeb0" class="javax.swing.JButton" binding="SaveBaumButton">
+                            <constraints/>
+                            <properties>
+                              <font name="Cambria Math" size="15"/>
+                              <text value="Speichern"/>
+                            </properties>
+                          </component>
+                          <component id="fd597" class="javax.swing.JButton" binding="comittButton">
+                            <constraints/>
+                            <properties>
+                              <font name="Cambria Math" size="15"/>
+                              <text value="Comitt"/>
+                            </properties>
+                          </component>
+                        </children>
+                      </grid>
+                      <component id="d64b6" class="javax.swing.JLabel">
+                        <constraints border-constraint="North"/>
+                        <properties>
+                          <font name="Comic Sans MS" size="16" style="1"/>
+                          <text value="Edok_vorlagenbaum_vorlage"/>
+                        </properties>
+                      </component>
+                      <grid id="81766" layout-manager="BorderLayout" hgap="0" vgap="0">
+                        <constraints border-constraint="Center"/>
+                        <properties>
+                          <font name="Cambria Math" size="15"/>
+                        </properties>
+                        <border type="none"/>
+                        <children>
+                          <grid id="30fb8" layout-manager="GridLayoutManager" row-count="5" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                            <margin top="0" left="0" bottom="0" right="0"/>
+                            <constraints border-constraint="North"/>
+                            <properties>
+                              <font name="Cambria Math" size="15"/>
+                            </properties>
+                            <border type="none"/>
+                            <children>
+                              <component id="c63f2" class="javax.swing.JLabel">
+                                <constraints>
+                                  <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                                </constraints>
+                                <properties>
+                                  <font name="Cambria Math" size="15"/>
+                                  <text value="EDOK_VORLAGENBAUM_ID"/>
+                                </properties>
+                              </component>
+                              <component id="a61a2" class="javax.swing.JLabel">
+                                <constraints>
+                                  <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                                </constraints>
+                                <properties>
+                                  <font name="Cambria Math" size="15"/>
+                                  <text value="EDOK_VORLAGE_ID"/>
+                                </properties>
+                              </component>
+                              <component id="1737b" class="javax.swing.JTextField" binding="EDOK_VORLAGE_ID_BAUMtxt">
+                                <constraints>
+                                  <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                                    <preferred-size width="150" height="-1"/>
+                                  </grid>
+                                </constraints>
+                                <properties>
+                                  <font name="Cambria Math" size="15" style="1"/>
+                                  <text value=""/>
+                                </properties>
+                              </component>
+                              <component id="ca0c5" class="javax.swing.JLabel">
+                                <constraints>
+                                  <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                                </constraints>
+                                <properties>
+                                  <font name="Cambria Math" size="15"/>
+                                  <text value="ID"/>
+                                </properties>
+                              </component>
+                              <component id="3438f" class="javax.swing.JTextField" binding="EDOK_VORLAGENBAUM_IDtxt">
+                                <constraints>
+                                  <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                                    <preferred-size width="150" height="-1"/>
+                                  </grid>
+                                </constraints>
+                                <properties>
+                                  <font name="Cambria Math" size="15" style="1"/>
+                                </properties>
+                              </component>
+                              <component id="3591e" class="javax.swing.JSpinner" binding="ID_BAUMtxt">
+                                <constraints>
+                                  <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+                                </constraints>
+                                <properties>
+                                  <font name="Cambria Math" size="15"/>
+                                </properties>
+                              </component>
+                              <grid id="8f485" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+                                <constraints>
+                                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                                </constraints>
+                                <properties>
+                                  <font name="Cambria Math" size="15"/>
+                                </properties>
+                                <border type="none"/>
+                                <children/>
+                              </grid>
+                              <component id="9f62" class="javax.swing.JTextField" binding="ORDNERtxt">
+                                <constraints>
+                                  <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                                    <preferred-size width="150" height="-1"/>
+                                  </grid>
+                                </constraints>
+                                <properties>
+                                  <font name="Cambria Math" size="15" style="1"/>
+                                </properties>
+                              </component>
+                              <component id="3c7f8" class="javax.swing.JLabel">
+                                <constraints>
+                                  <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                                </constraints>
+                                <properties>
+                                  <font name="Cambria Math" size="15"/>
+                                  <text value="ORDNER"/>
+                                </properties>
+                              </component>
+                            </children>
+                          </grid>
+                          <grid id="54f4f" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+                            <constraints border-constraint="Center"/>
+                            <properties>
+                              <font name="Cambria Math" size="15"/>
+                            </properties>
+                            <border type="none"/>
+                            <children/>
+                          </grid>
+                        </children>
+                      </grid>
+                    </children>
+                  </grid>
+                  <grid id="a0ed1" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                    <margin top="0" left="0" bottom="0" right="0"/>
+                    <constraints>
+                      <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties/>
+                    <border type="none"/>
+                    <children>
+                      <hspacer id="6f9a4">
+                        <constraints>
+                          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                      </hspacer>
+                    </children>
+                  </grid>
+                </children>
+              </grid>
+              <grid id="5876f" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="2">
+                <constraints>
+                  <grid row="8" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                  <gridbag weightx="1.0" weighty="1.0"/>
+                </constraints>
+                <properties>
+                  <font name="Cambria Math" size="15"/>
+                </properties>
+                <border type="none"/>
+                <children>
+                  <component id="de70d" class="javax.swing.JButton" binding="ZuruckButton2">
+                    <constraints/>
+                    <properties>
+                      <font name="Cambria Math" size="15"/>
+                      <text value="Zurücksetzen"/>
+                    </properties>
+                  </component>
+                  <component id="d8e57" class="javax.swing.JButton" binding="fertigButton">
+                    <constraints/>
+                    <properties>
+                      <font name="Cambria Math" size="15"/>
+                      <text value="Fertig"/>
+                    </properties>
+                  </component>
+                </children>
+              </grid>
+              <grid id="65c48" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+                <constraints>
+                  <grid row="7" column="0" row-span="1" col-span="2" vsize-policy="3" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                  <gridbag weightx="1.0" weighty="1.0"/>
+                </constraints>
+                <properties>
+                  <font name="Cambria Math" size="15"/>
+                </properties>
+                <border type="none"/>
+                <children/>
+              </grid>
+              <grid id="c1792" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+                <constraints>
+                  <grid row="4" column="0" row-span="1" col-span="2" vsize-policy="3" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                  <gridbag weightx="1.0" weighty="1.0"/>
+                </constraints>
+                <properties>
+                  <font name="Cambria Math" size="15"/>
+                </properties>
+                <border type="none"/>
+                <children/>
+              </grid>
+              <grid id="8d7c3" layout-manager="GridLayoutManager" row-count="2" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                <margin top="0" left="0" bottom="0" right="0"/>
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                  <gridbag weightx="1.0" weighty="1.0"/>
+                </constraints>
+                <properties/>
+                <border type="none"/>
+                <children>
+                  <component id="d24f0" class="javax.swing.JLabel" binding="Childtabelle1">
+                    <constraints>
+                      <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <text value="    Childtabelle"/>
+                    </properties>
+                  </component>
+                  <vspacer id="6b107">
+                    <constraints>
+                      <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                  </vspacer>
+                </children>
+              </grid>
+              <grid id="5dea8" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                <margin top="0" left="0" bottom="0" right="0"/>
+                <constraints>
+                  <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                  <gridbag weightx="0.0" weighty="0.0"/>
+                </constraints>
+                <properties/>
+                <border type="none"/>
+                <children>
+                  <component id="876f8" class="javax.swing.JLabel" binding="MiniScreen">
+                    <constraints>
+                      <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <text value="MiniScreen"/>
+                    </properties>
+                  </component>
+                </children>
+              </grid>
+              <component id="96352" class="javax.swing.JLabel" binding="Childtabelle3">
+                <constraints>
+                  <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                  <gridbag weightx="0.0" weighty="0.0"/>
+                </constraints>
+                <properties>
+                  <text value="    Childtabelle"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+          <component id="acbfb" class="javax.swing.JLabel" binding="ErrorLabel">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+              <gridbag weightx="1.0" weighty="1.0"/>
+            </constraints>
+            <properties>
+              <background color="-16777216"/>
+              <enabled value="true"/>
+              <font name="Cambria Math" size="15"/>
+              <foreground color="-65536"/>
+              <horizontalAlignment value="0"/>
+              <horizontalTextPosition value="0"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <grid id="eeea" binding="pnlVorlage" layout-manager="GridBagLayout">
+            <constraints>
+              <grid row="1" column="0" row-span="3" col-span="1" vsize-policy="3" hsize-policy="3" anchor="1" fill="1" indent="0" use-parent-layout="false"/>
+              <gridbag weightx="1.0" weighty="1.0"/>
+            </constraints>
+            <properties>
+              <font name="Cambria Math" size="15"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <grid id="6b9c9" binding="JP1_Vorlage" layout-manager="BorderLayout" hgap="0" vgap="0">
+                <constraints>
+                  <grid row="1" column="0" row-span="1" col-span="3" vsize-policy="3" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                  <gridbag weightx="1.0" weighty="1.0"/>
+                </constraints>
+                <properties>
+                  <font name="Cambria Math" size="15"/>
+                </properties>
+                <border type="none"/>
+                <children>
+                  <grid id="f10c4" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+                    <constraints border-constraint="South"/>
+                    <properties>
+                      <font name="Cambria Math" size="15"/>
+                    </properties>
+                    <border type="none"/>
+                    <children>
+                      <component id="88737" class="javax.swing.JButton" binding="ZuruckButton">
+                        <constraints/>
+                        <properties>
+                          <font name="Cambria Math" size="15"/>
+                          <text value="Zuruck"/>
+                        </properties>
+                      </component>
+                      <component id="a13db" class="javax.swing.JButton" binding="saveButton">
+                        <constraints/>
+                        <properties>
+                          <font name="Cambria Math" size="15"/>
+                          <text value="Speichern"/>
+                        </properties>
+                      </component>
+                      <component id="6923e" class="javax.swing.JButton" binding="AbfragenButton">
+                        <constraints/>
+                        <properties>
+                          <font name="Cambria Math" size="15"/>
+                          <text value="Die Skripts"/>
+                        </properties>
+                      </component>
+                    </children>
+                  </grid>
+                  <grid id="5a6d3" layout-manager="BorderLayout" hgap="0" vgap="0">
+                    <constraints border-constraint="Center"/>
+                    <properties>
+                      <font name="Cambria Math" size="15"/>
+                    </properties>
+                    <border type="none"/>
+                    <children>
+                      <grid id="8acd0" layout-manager="GridLayoutManager" row-count="9" column-count="6" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                        <margin top="0" left="0" bottom="0" right="0"/>
+                        <constraints border-constraint="North"/>
+                        <properties>
+                          <font name="Cambria Math" size="15"/>
+                        </properties>
+                        <border type="none"/>
+                        <children>
+                          <component id="fb3b5" class="javax.swing.JLabel">
+                            <constraints>
+                              <grid row="7" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                            </constraints>
+                            <properties>
+                              <font name="Cambria Math" size="15"/>
+                              <text value="GELOESCHT"/>
+                            </properties>
+                          </component>
+                          <component id="74902" class="javax.swing.JSpinner" binding="IDtxt">
+                            <constraints>
+                              <grid row="1" column="2" row-span="1" col-span="3" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+                            </constraints>
+                            <properties>
+                              <font name="Cambria Math" size="15"/>
+                            </properties>
+                          </component>
+                          <component id="be19a" class="javax.swing.JTextField" binding="BEZEICHNUNGtxt">
+                            <constraints>
+                              <grid row="2" column="2" row-span="1" col-span="3" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                                <preferred-size width="150" height="-1"/>
+                              </grid>
+                            </constraints>
+                            <properties>
+                              <font name="Cambria Math" size="15" style="1"/>
+                            </properties>
+                          </component>
+                          <component id="5e3fb" class="javax.swing.JTextField" binding="VERSIONtxt">
+                            <constraints>
+                              <grid row="3" column="2" row-span="1" col-span="3" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                                <preferred-size width="150" height="-1"/>
+                              </grid>
+                            </constraints>
+                            <properties>
+                              <font name="Cambria Math" size="15" style="1"/>
+                              <text value=""/>
+                            </properties>
+                          </component>
+                          <component id="810d3" class="javax.swing.JTextField" binding="URLtxt">
+                            <constraints>
+                              <grid row="4" column="2" row-span="1" col-span="3" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                                <preferred-size width="150" height="-1"/>
+                              </grid>
+                            </constraints>
+                            <properties>
+                              <font name="Cambria Math" size="15" style="1"/>
+                            </properties>
+                          </component>
+                          <component id="2d8fe" class="javax.swing.JComboBox" binding="VORLAGE_ART_CODEtxt">
+                            <constraints>
+                              <grid row="5" column="2" row-span="1" col-span="3" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+                            </constraints>
+                            <properties>
+                              <font name="Cambria Math" size="15"/>
+                            </properties>
+                          </component>
+                          <component id="e4dbb" class="javax.swing.JComboBox" binding="PHASE_CODEtxt">
+                            <constraints>
+                              <grid row="6" column="2" row-span="1" col-span="3" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+                            </constraints>
+                            <properties>
+                              <font name="Cambria Math" size="15"/>
+                            </properties>
+                          </component>
+                          <component id="4a1a4" class="javax.swing.JTextField" binding="TECHNISCHE_BEZEICHNUNGtxt">
+                            <constraints>
+                              <grid row="8" column="2" row-span="1" col-span="3" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                                <preferred-size width="150" height="-1"/>
+                              </grid>
+                            </constraints>
+                            <properties>
+                              <font name="Cambria Math" size="15" style="1"/>
+                            </properties>
+                          </component>
+                          <component id="6b7db" class="javax.swing.JCheckBox" binding="GELOESCHT_JAtxt">
+                            <constraints>
+                              <grid row="7" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                            </constraints>
+                            <properties>
+                              <enabled value="true"/>
+                              <font name="Cambria Math" size="15"/>
+                              <text value="Ja"/>
+                            </properties>
+                          </component>
+                          <component id="55541" class="javax.swing.JCheckBox" binding="GELOESCHT_NEINtxt">
+                            <constraints>
+                              <grid row="7" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                            </constraints>
+                            <properties>
+                              <enabled value="true"/>
+                              <font name="Cambria Math" size="15"/>
+                              <text value="Nein"/>
+                            </properties>
+                          </component>
+                          <grid id="d32af" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+                            <constraints>
+                              <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                            </constraints>
+                            <properties>
+                              <font name="Cambria Math" size="15"/>
+                            </properties>
+                            <border type="none"/>
+                            <children/>
+                          </grid>
+                          <grid id="e84b1" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                            <margin top="0" left="0" bottom="0" right="0"/>
+                            <constraints>
+                              <grid row="1" column="5" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                            </constraints>
+                            <properties/>
+                            <border type="none"/>
+                            <children/>
+                          </grid>
+                          <grid id="80e02" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                            <margin top="0" left="0" bottom="0" right="0"/>
+                            <constraints>
+                              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                            </constraints>
+                            <properties/>
+                            <border type="none"/>
+                            <children/>
+                          </grid>
+                          <component id="a0d7" class="javax.swing.JLabel">
+                            <constraints>
+                              <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                            </constraints>
+                            <properties>
+                              <font name="Comic Sans MS" size="16" style="1"/>
+                              <text value="Edok_vorlage"/>
+                            </properties>
+                          </component>
+                          <component id="46de1" class="javax.swing.JLabel">
+                            <constraints>
+                              <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                            </constraints>
+                            <properties>
+                              <font name="Cambria Math" size="15"/>
+                              <text value="ID"/>
+                            </properties>
+                          </component>
+                          <component id="ea1c8" class="javax.swing.JLabel">
+                            <constraints>
+                              <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                            </constraints>
+                            <properties>
+                              <font name="Cambria Math" size="15"/>
+                              <text value="BEZEICHNUNG"/>
+                            </properties>
+                          </component>
+                          <component id="1574a" class="javax.swing.JLabel">
+                            <constraints>
+                              <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                            </constraints>
+                            <properties>
+                              <font name="Cambria Math" size="15"/>
+                              <text value="VERSION"/>
+                            </properties>
+                          </component>
+                          <component id="9d502" class="javax.swing.JLabel">
+                            <constraints>
+                              <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                            </constraints>
+                            <properties>
+                              <font name="Cambria Math" size="15"/>
+                              <text value="URL"/>
+                            </properties>
+                          </component>
+                          <component id="2eaf6" class="javax.swing.JLabel">
+                            <constraints>
+                              <grid row="5" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                            </constraints>
+                            <properties>
+                              <font name="Cambria Math" size="15"/>
+                              <text value="VORLAGE_ART_CODE"/>
+                            </properties>
+                          </component>
+                          <component id="ae62d" class="javax.swing.JLabel">
+                            <constraints>
+                              <grid row="6" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                            </constraints>
+                            <properties>
+                              <font name="Cambria Math" size="15"/>
+                              <text value="PHASE_CODE"/>
+                            </properties>
+                          </component>
+                          <component id="b8229" class="javax.swing.JLabel">
+                            <constraints>
+                              <grid row="8" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                            </constraints>
+                            <properties>
+                              <font name="Cambria Math" size="15"/>
+                              <text value="TECHNISCHE_BEZEICHNUNG"/>
+                            </properties>
+                          </component>
+                        </children>
+                      </grid>
+                      <grid id="5b855" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+                        <constraints border-constraint="Center"/>
+                        <properties>
+                          <font name="Cambria Math" size="15"/>
+                        </properties>
+                        <border type="none"/>
+                        <children/>
+                      </grid>
+                    </children>
+                  </grid>
+                </children>
+              </grid>
+              <grid id="d7924" binding="pnlKonfig" layout-manager="GridLayoutManager" row-count="1" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                <margin top="0" left="0" bottom="0" right="0"/>
+                <constraints>
+                  <grid row="3" column="0" row-span="1" col-span="3" vsize-policy="3" hsize-policy="3" anchor="1" fill="0" indent="0" use-parent-layout="false"/>
+                  <gridbag weightx="1.0" weighty="1.0"/>
+                </constraints>
+                <properties>
+                  <font name="Cambria Math" size="15"/>
+                </properties>
+                <border type="none"/>
+                <children>
+                  <grid id="8839d" layout-manager="BorderLayout" hgap="0" vgap="0">
+                    <constraints>
+                      <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <font name="Cambria Math" size="15"/>
+                    </properties>
+                    <border type="none"/>
+                    <children>
+                      <grid id="d7487" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+                        <constraints border-constraint="South"/>
+                        <properties>
+                          <font name="Cambria Math" size="15"/>
+                        </properties>
+                        <border type="none"/>
+                        <children>
+                          <component id="d5939" class="javax.swing.JButton" binding="löchen_konfigButton">
+                            <constraints/>
+                            <properties>
+                              <font name="Cambria Math" size="15"/>
+                              <text value="Löchen"/>
+                            </properties>
+                          </component>
+                          <component id="75fb8" class="javax.swing.JButton" binding="SaveKonfigButton">
+                            <constraints/>
+                            <properties>
+                              <font name="Cambria Math" size="15"/>
+                              <horizontalTextPosition value="11"/>
+                              <text value="Speichern"/>
+                            </properties>
+                          </component>
+                        </children>
+                      </grid>
+                      <component id="7e866" class="javax.swing.JLabel">
+                        <constraints border-constraint="North"/>
+                        <properties>
+                          <font name="Comic Sans MS" size="16" style="1"/>
+                          <text value="Edok_vorlage_folgeschreiben_konfiguration"/>
+                        </properties>
+                      </component>
+                      <grid id="12692" layout-manager="BorderLayout" hgap="0" vgap="0">
+                        <constraints border-constraint="Center"/>
+                        <properties>
+                          <font name="Cambria Math" size="15"/>
+                        </properties>
+                        <border type="none"/>
+                        <children>
+                          <grid id="72655" layout-manager="GridLayoutManager" row-count="10" column-count="4" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                            <margin top="0" left="0" bottom="0" right="0"/>
+                            <constraints border-constraint="North"/>
+                            <properties>
+                              <font name="Cambria Math" size="15"/>
+                            </properties>
+                            <border type="none"/>
+                            <children>
+                              <component id="7b227" class="javax.swing.JLabel">
+                                <constraints>
+                                  <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                                </constraints>
+                                <properties>
+                                  <font name="Cambria Math" size="15"/>
+                                  <text value="EDOK_VORLAGE_HAUPTSCHREIBEN_ID"/>
+                                </properties>
+                              </component>
+                              <component id="b11e4" class="javax.swing.JLabel">
+                                <constraints>
+                                  <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                                </constraints>
+                                <properties>
+                                  <font name="Cambria Math" size="15"/>
+                                  <text value="EDOK_VORLAGE_FOLGESCHREIBEN_ID"/>
+                                </properties>
+                              </component>
+                              <component id="aa14c" class="javax.swing.JTextField" binding="EDOK_VORLAGE_FOLGESCHREIBEN_IDtxt">
+                                <constraints>
+                                  <grid row="3" column="1" row-span="1" col-span="3" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                                    <preferred-size width="150" height="-1"/>
+                                  </grid>
+                                </constraints>
+                                <properties>
+                                  <font name="Cambria Math" size="15" style="1"/>
+                                  <text value=""/>
+                                </properties>
+                              </component>
+                              <component id="362cf" class="javax.swing.JLabel">
+                                <constraints>
+                                  <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                                </constraints>
+                                <properties>
+                                  <font name="Cambria Math" size="15"/>
+                                  <text value="OPTIONAL"/>
+                                </properties>
+                              </component>
+                              <component id="63f1" class="javax.swing.JLabel">
+                                <constraints>
+                                  <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                                </constraints>
+                                <properties>
+                                  <font name="Cambria Math" size="15"/>
+                                  <text value="VORBELEGT"/>
+                                </properties>
+                              </component>
+                              <component id="e68db" class="javax.swing.JLabel">
+                                <constraints>
+                                  <grid row="6" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                                </constraints>
+                                <properties>
+                                  <font name="Cambria Math" size="15"/>
+                                  <text value="REIHENFOLGE_NR"/>
+                                </properties>
+                              </component>
+                              <component id="4a974" class="javax.swing.JLabel">
+                                <constraints>
+                                  <grid row="7" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                                </constraints>
+                                <properties>
+                                  <font name="Cambria Math" size="15"/>
+                                  <text value="DATEN_UEBERGEBEN"/>
+                                </properties>
+                              </component>
+                              <component id="1e14b" class="javax.swing.JLabel">
+                                <constraints>
+                                  <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                                </constraints>
+                                <properties>
+                                  <font name="Cambria Math" size="15"/>
+                                  <text value="ID"/>
+                                </properties>
+                              </component>
+                              <component id="48d28" class="javax.swing.JTextField" binding="EDOK_VORLAGE_HAUPTSCHREIBEN_IDtxt">
+                                <constraints>
+                                  <grid row="2" column="1" row-span="1" col-span="3" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                                    <preferred-size width="150" height="-1"/>
+                                  </grid>
+                                </constraints>
+                                <properties>
+                                  <font name="Cambria Math" size="15" style="1"/>
+                                  <text value=""/>
+                                </properties>
+                              </component>
+                              <component id="7efe1" class="javax.swing.JSpinner" binding="ID_KONFIGtxt">
+                                <constraints>
+                                  <grid row="1" column="1" row-span="1" col-span="3" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+                                </constraints>
+                                <properties>
+                                  <font name="Cambria Math" size="15"/>
+                                </properties>
+                              </component>
+                              <component id="c8729" class="javax.swing.JCheckBox" binding="OPTIONAL_JAtxt">
+                                <constraints>
+                                  <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                                </constraints>
+                                <properties>
+                                  <enabled value="true"/>
+                                  <font name="Cambria Math" size="15"/>
+                                  <text value="Ja"/>
+                                </properties>
+                              </component>
+                              <component id="487fa" class="javax.swing.JCheckBox" binding="OPTIONAL_NEINtxt">
+                                <constraints>
+                                  <grid row="4" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                                </constraints>
+                                <properties>
+                                  <enabled value="true"/>
+                                  <font name="Cambria Math" size="15"/>
+                                  <text value="Nein"/>
+                                </properties>
+                              </component>
+                              <component id="a9bb8" class="javax.swing.JSpinner" binding="REIHENFOLGE_NRtxt">
+                                <constraints>
+                                  <grid row="6" column="1" row-span="1" col-span="3" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+                                </constraints>
+                                <properties>
+                                  <font name="Cambria Math" size="15"/>
+                                </properties>
+                              </component>
+                              <component id="ddf26" class="javax.swing.JCheckBox" binding="VORBELEGT_JAtxt">
+                                <constraints>
+                                  <grid row="5" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                                </constraints>
+                                <properties>
+                                  <enabled value="true"/>
+                                  <font name="Cambria Math" size="15"/>
+                                  <text value="Ja"/>
+                                </properties>
+                              </component>
+                              <component id="92193" class="javax.swing.JCheckBox" binding="VORBELEGT_NEINtxt">
+                                <constraints>
+                                  <grid row="5" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                                </constraints>
+                                <properties>
+                                  <enabled value="true"/>
+                                  <font name="Cambria Math" size="15"/>
+                                  <text value="Nein"/>
+                                </properties>
+                              </component>
+                              <component id="6b1d5" class="javax.swing.JCheckBox" binding="DATEN_UEBERGEBEN_JAtxt">
+                                <constraints>
+                                  <grid row="7" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                                </constraints>
+                                <properties>
+                                  <enabled value="true"/>
+                                  <font name="Cambria Math" size="15"/>
+                                  <text value="Ja"/>
+                                </properties>
+                              </component>
+                              <component id="c49eb" class="javax.swing.JCheckBox" binding="DATEN_UEBERGEBEN_NEINtxt">
+                                <constraints>
+                                  <grid row="7" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                                </constraints>
+                                <properties>
+                                  <enabled value="true"/>
+                                  <font name="Cambria Math" size="15"/>
+                                  <text value="Nein"/>
+                                </properties>
+                              </component>
+                              <grid id="92295" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+                                <constraints>
+                                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                                </constraints>
+                                <properties>
+                                  <font name="Cambria Math" size="15"/>
+                                </properties>
+                                <border type="none"/>
+                                <children/>
+                              </grid>
+                              <component id="762b8" class="javax.swing.JLabel">
+                                <constraints>
+                                  <grid row="8" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                                </constraints>
+                                <properties>
+                                  <font name="Cambria Math" size="15"/>
+                                  <text value="HAUPTSCHREIBEN_ANHAENGEN"/>
+                                </properties>
+                              </component>
+                              <component id="fe84d" class="javax.swing.JCheckBox" binding="HAUPTSCHREIBEN_ANHAENGEN_JAtxt">
+                                <constraints>
+                                  <grid row="8" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                                </constraints>
+                                <properties>
+                                  <enabled value="true"/>
+                                  <font name="Cambria Math" size="15"/>
+                                  <text value="Ja"/>
+                                </properties>
+                              </component>
+                              <component id="4fa2e" class="javax.swing.JCheckBox" binding="HAUPTSCHREIBEN_ANHAENGEN_NEINtxt">
+                                <constraints>
+                                  <grid row="8" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                                </constraints>
+                                <properties>
+                                  <enabled value="true"/>
+                                  <font name="Cambria Math" size="15"/>
+                                  <text value="Nein"/>
+                                </properties>
+                              </component>
+                              <component id="9521f" class="javax.swing.JLabel">
+                                <constraints>
+                                  <grid row="9" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                                </constraints>
+                                <properties>
+                                  <font name="Cambria Math" size="15"/>
+                                  <text value="FOLGESCHREIBEN"/>
+                                </properties>
+                              </component>
+                              <component id="c828d" class="javax.swing.JTextField" binding="FOLGESCHREIBENtxt">
+                                <constraints>
+                                  <grid row="9" column="1" row-span="1" col-span="3" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                                    <preferred-size width="150" height="-1"/>
+                                  </grid>
+                                </constraints>
+                                <properties>
+                                  <font name="Cambria Math" size="15" style="1"/>
+                                </properties>
+                              </component>
+                            </children>
+                          </grid>
+                          <grid id="8ab60" layout-manager="BorderLayout" hgap="0" vgap="0">
+                            <constraints border-constraint="Center"/>
+                            <properties>
+                              <font name="Cambria Math" size="15"/>
+                            </properties>
+                            <border type="none"/>
+                            <children/>
+                          </grid>
+                        </children>
+                      </grid>
+                    </children>
+                  </grid>
+                  <grid id="ce6ea" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                    <margin top="0" left="0" bottom="0" right="0"/>
+                    <constraints>
+                      <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <font name="Cambria Math" size="15"/>
+                    </properties>
+                    <border type="none"/>
+                    <children/>
+                  </grid>
+                </children>
+              </grid>
+              <grid id="1f9a5" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+                <constraints>
+                  <grid row="2" column="2" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                  <gridbag weightx="1.0" weighty="1.0"/>
+                </constraints>
+                <properties>
+                  <font name="Cambria Math" size="15"/>
+                </properties>
+                <border type="none"/>
+                <children/>
+              </grid>
+              <grid id="75b95" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                <margin top="0" left="0" bottom="0" right="0"/>
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="3" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                  <gridbag weightx="1.0" weighty="1.0"/>
+                </constraints>
+                <properties/>
+                <border type="none"/>
+                <children/>
+              </grid>
+              <component id="a28e5" class="javax.swing.JLabel" binding="Childtabelle2">
+                <constraints>
+                  <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                  <gridbag weightx="0.0" weighty="0.0"/>
+                </constraints>
+                <properties>
+                  <text value="Childtabelle"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+        </children>
+      </grid>
+    </children>
+  </grid>
+</form>
